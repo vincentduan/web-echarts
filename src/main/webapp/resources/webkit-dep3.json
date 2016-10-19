@@ -1,0 +1,52 @@
+{
+    "type": "circular",
+    "categories": [
+        {
+            "name": "HTMLElement"
+        },
+        {
+            "name": "WebGL"
+        },
+        {
+            "name": "SVG"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "Other"
+        }
+    ],
+    "nodes": [
+        {	
+        	"id":"AnalyserNode",
+            "name": "AnalyserNode",
+            "value": 50,
+            "category": 4
+        },
+        {
+        	"id":"AudioNode",
+            "name": "AudioNode",
+            "value": 10,
+            "category": 4
+        },
+        {
+        	"id":"Uint8Array",
+            "name": "Uint8Array",
+            "value": 10,
+            "category": 4
+        }
+    ],
+    "links": [
+        {
+            "source": "AnalyserNode",
+            "target": "AudioNode",
+            "relation":"0 to 1"
+        },
+        {
+            "source": "AudioNode",
+            "target": "Uint8Array",
+            "relation":"0 to 2"
+        }
+    ]
+}

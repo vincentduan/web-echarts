@@ -1,0 +1,96 @@
+{
+    "type": "circular",
+    "categories": [
+        {
+            "name": "HTMLElement"
+        },
+        {
+            "name": "WebGL"
+        },
+        {
+            "name": "SVG"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "Other"
+        }
+    ],
+    "nodes": [
+        {	
+        	"id":"2",
+            "name": "AnalyserNode",
+            "value": 50,
+            "category": 4
+        },
+        {
+        	"id":"0",
+            "name": "AudioNode",
+            "value": 10,
+            "category": 4
+        },
+        {
+        	"id":"1",
+            "name": "Uint8Array",
+            "value": 10,
+            "category": 4
+        },
+        {
+        	"id":"3",
+            "name": "Float32Array",
+            "value": 10,
+            "category": 4
+        },
+        {
+        	"id":"5",
+            "name": "SQLTransactionCallback",
+            "value": 10,
+            "category": 4
+        },
+        {
+        	"id":"4",
+            "name": "DatabaseCallback",
+            "value": 10,
+            "category": 4
+        },
+        {
+        	"id":"6",
+            "name": "DatabaseSync",
+            "value": 10,
+            "category": 4
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "relation":"0 to 1"
+        },
+        {
+            "source": 0,
+            "target": 2,
+            "relation":"0 to 2"
+        },
+        {
+            "source": 0,
+            "target": 3,
+            "relation":"0 to 3"
+        },
+        {
+            "source": 5,
+            "target": 4,
+            "relation":"5 to 4"
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "relation":"6 to 7"
+        },
+        {
+            "source": 6,
+            "target": 8,
+            "relation":"6 to 8"
+        }
+    ]
+}
